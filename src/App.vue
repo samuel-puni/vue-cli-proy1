@@ -1,15 +1,8 @@
 <template>
-  <h1>Server status: {{ status }}</h1>
+  <app-severs></app-severs>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        status: 'Good!!'
-      }
-    },
-  }
 </script>
 
 <style>
